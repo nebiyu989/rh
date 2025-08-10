@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - NEBIYU</title>
+  <style>
+    body {
+      background: #000;
+      color: #00ffe5;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    form {
+      margin-top: 30px;
+      max-width: 500px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      background: transparent;
+      border: 1px solid #00ffe5;
+      color: white;
+    }
+    button {
+      padding: 10px 20px;
+      background: #00ffe5;
+      color: black;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background: #00ccbf;
+    }
+    a {
+      color: #00ffe5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #33fff7;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Me</h1>
+  <form action="#" method="post">
+    <input type="text" name="name" placeholder="Your name" required />
+    <input type="email" name="email" placeholder="Your email" required />
+    <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p><a href="index.html">← Back to Home</a></p>
+</body>
+</html>
